@@ -92,7 +92,7 @@ Let's check that root private key and see if it works with the loopback address
 `Disconnected from 127.0.0.1 port 22`
 `remi@boolean:~/.ssh/keys$` 
 
-So the key might still be good but we're getting Too many auth failures. There must be a way to fix this.
+So the key might still be good but we're getting Too many authentication failures. There must be a way to fix this.
 
 Try the IdentitiesOnly option 
 `ssh -i root -o IdentitiesOnly=yes root@127.0.0.1`

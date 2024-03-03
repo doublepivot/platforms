@@ -51,7 +51,9 @@ Catch and upgrade
 `www-data@gravity:~/html/grav-admin$` 
 
 Look for applications where suid permission is set (ignore the garbage ones)
-`find / -perm -u=s 2>/dev/null | grep -v '^/proc\|^/run\|&/sys\|^/snap'`
+```
+find / -perm -u=s 2>/dev/null | grep -v '^/proc\|^/run\|&/sys\|^/snap'
+```
 
 `/usr/lib/dbus-1.0/dbus-daemon-launch-helper`
 `/usr/lib/eject/dmcrypt-get-device`
