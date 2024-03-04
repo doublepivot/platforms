@@ -170,11 +170,7 @@ root
 ```
 
 Grab the flags
-```
-# cat /root/proof.txt
-cat /root/proof.txt
+```cat /root/proof.txt
 041ee57a2fc05dd43db1234a185fe334
-# cat /home/observer/local.txt
 cat /home/observer/local.txt
-1334f75c46dde43f65635f721229c7ea
-```
+1334f75c46dde43f65635f721229c7ea```
